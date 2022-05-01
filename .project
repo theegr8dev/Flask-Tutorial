@@ -19,6 +19,5 @@
 	<natures>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 		<nature>org.python.pydev.pythonNature</nature>
-		<nature>org.python.pydev.django.djangoNature</nature>
 	</natures>
 </projectDescription>
