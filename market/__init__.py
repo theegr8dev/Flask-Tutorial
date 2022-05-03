@@ -21,5 +21,9 @@ bcrypt = Bcrypt(app)
 # creating an insatnce of the login manager--> to manager our login
 login_manager = LoginManager(app)
 
+# telling the login_manage the login_page route-- so it will direct the
+# user to login page from home page if not logged in
+login_manager.login_view = 'login_page'
+login_manager.login_message_category = 'info'
 
 from market import routes
